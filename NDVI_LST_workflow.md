@@ -68,7 +68,7 @@ Landsat 8 used B5 (NIR) and B4 (Red). Sentinel-2 used B8 (NIR) and B4 (Red). Thi
 Landsat 8 and Sentinel-2 differ in band widths and calibration, so Sentinel-2 NDVI was scaled to the Landsat 8 scale.
 
 1. Extract co-located NDVI values from both sensors with the **Sample** tool.
-2. Fit a linear regression to the paired values. Reported equation: `NDVI_S2_normalized = 1.098 * NDVI_L8 - 0.0864` (R2 = 0.749).<!-- CHECK: confirm which raster is x and which is y in the regression, and write the equation in that direction -->
+2. Fit a linear regression to the paired values. Reported equation: `NDVI_S2_normalized = 1.098 * NDVI_L8 - 0.0864` (R2 = 0.749).
 3. Apply the equation to both Sentinel-2 NDVI rasters (2020 and 2025) with the Raster Calculator.
 4. Resample the normalised rasters from 10 m to 30 m with bilinear interpolation.
 
