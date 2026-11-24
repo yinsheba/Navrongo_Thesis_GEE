@@ -8,9 +8,9 @@ Google Earth Engine scripts from my BSc thesis, *Urban Green Cover Change and It
 
 | Script | What it does |
 |---|---|
-| `Classification` | Compares SVM, CART and Gradient Tree Boost classifiers on the same Sentinel-2 inputs for Navrongo, 2025 |
-| `Navrongo_RF_Classification_2025` | Random Forest land cover classification <!-- CONFIRM: which configuration this script holds --> |
-| `Comprehensive_classification` | Random Forest with the full 16-feature stack <!-- CONFIRM --> |
+| `Multi-Classifier Comparison - Navrongo 2025` | Compares SVM, CART and Gradient Tree Boost classifiers on the same Sentinel-2 inputs for Navrongo, 2025 |
+| `RF Classification No NDWI` | Random Forest land cover classification <!-- CONFIRM: which configuration this script holds --> |
+| `RF Classification - Navrongo 2025` | Random Forest with the full 16-feature stack <!-- CONFIRM --> |
 | `Bagre flood risk mapping` | Separate project: Sentinel-1 SAR flood extent downstream of the Bagre Dam |
 
 ## How to open the scripts
